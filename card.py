@@ -1,6 +1,6 @@
 import cv2
 import time
-from pre import preprocess
+from .pre import preprocess
 from helper import display
 from current import process
 from models import model_wrapper
